@@ -68,12 +68,14 @@ src/
 ├── components/
 │   └── CustomForm/
 │       ├── CustomForm.tsx
-│       └── CustomInput/
-│           ├── CustomInput.tsx
-│           └── CustomInput.css
-├── models/
-│   └── index.ts
-└── App.css
+│       ├── components/
+│       │   ├── CustomInput.tsx
+│       │   └── CustomInput.css
+│       ├── index.ts
+│       └ models/
+│         ├── form.model.ts
+│         └── index.ts
+└── App.tsx
 ```
 
 ## Contributing
