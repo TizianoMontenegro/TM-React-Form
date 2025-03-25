@@ -1,0 +1,22 @@
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: .4em;
+}
+
+.form-control {
+    padding: .4em .7em;
+    border-radius: 5px;
+    max-width: 200px;
+    margin-bottom: 1em;
+}
+
+.is-invalid {
+    border-color: red;
+}
+
+.error {
+    color: red;
+    max-width: 200px;
+    margin-top: 0.2em
+}
